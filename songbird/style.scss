@@ -140,4 +140,51 @@ body {
     }
 }
 
+/*Footer*/
+.footer {
+    // position: relative;
+    display: flex;
+    max-width: 1600px;
+    width: 100%;
+    min-height: 80px;
+    // border: 1px solid red;
+}
+
+.footer-container {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    .github-link {
+        width: 60px;
+        height: 20px;
+        margin-left: 20px;
+        background-image: url('./assets/github.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: 0.5s;
+        cursor: pointer;
+        // border: 1px solid red;
+        
+    }
+    .year {
+        font-size: 20px;
+        font-weight: 500;
+        // border: 1px solid red;
+    }
+    .rss-link {
+        width: 130px;
+        height: 45px;
+        margin-right: 20px;
+        background-image: url('./assets/rs_school_js.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: 0.5s;
+        cursor: pointer;
+        // border: 1px solid red;
+    }
+}
+
 

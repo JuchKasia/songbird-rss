@@ -110,7 +110,73 @@ body {
           align-items: center;
   /* end */
 }
-body{font-family:"Roboto",sans-serif;font-style:normal;font-weight:400;font-size:16px;line-height:22.4px}*{margin:0;padding:0}html{scroll-behavior:smooth}.scroll{overflow:hidden}body{display:flex;flex-direction:column;width:100%;margin:0 auto;padding:0px;justify-content:space-between;align-items:center;background-color:#aabcc5;color:#000;border:1px solid red}.header{position:relative;max-width:1600px;width:100%;margin:0 auto}.header-container{display:flex;flex-direction:column;height:160px;margin:0 auto;justify-content:space-between;align-items:center}.header-container .top-header{display:flex;max-width:1400px;width:100%;height:120px;margin:0 auto;padding-left:10px;justify-content:space-between}.header-container .top-header .logo{display:flex;background-image:url("https://birds-quiz.netlify.app/static/media/logo.4f82cd73.svg");width:200px;height:55px;margin-top:35px;background-size:contain;background-repeat:no-repeat}.header-container .top-header h5{display:flex;width:200px;font-size:26px;font-weight:500px;justify-content:center;align-items:center}
+
+.header-container .bottom-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1400px;
+  width: 100%;
+  height: 40px;
+  margin: 0 auto;
+  padding-left: 10px;
+}
+
+.header-container .bottom-header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1380px;
+  width: 100%;
+}
+
+.header-container .bottom-header .nav .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.header-container .bottom-header .nav .nav-list .nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 230px;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: #1b7571;
+}
+
+.header-container .bottom-header .nav .nav-list .nav-item .nav-link {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.header-container .bottom-header .nav .nav-list .nav-item .nav-link:hover {
+  color: black;
+}
+
+.header-container .bottom-header .nav .nav-list .nav-item:hover {
+  background-color: #58A9A5;
+}
+body{font-family:"Roboto",sans-serif;font-style:normal;font-weight:400;font-size:16px;line-height:22.4px}*{margin:0;padding:0}html{scroll-behavior:smooth}.scroll{overflow:hidden}body{display:flex;flex-direction:column;width:100%;margin:0 auto;padding:0px;justify-content:space-between;align-items:center;background-color:#aabcc5;color:#000;border:1px solid red}.header{position:relative;max-width:1600px;width:100%;margin:0 auto}.header-container{display:flex;flex-direction:column;height:160px;margin:0 auto;justify-content:space-between;align-items:center}.header-container .top-header{display:flex;max-width:1400px;width:100%;height:120px;margin:0 auto;padding-left:10px;justify-content:space-between}.header-container .top-header .logo{display:flex;background-image:url("https://birds-quiz.netlify.app/static/media/logo.4f82cd73.svg");width:200px;height:55px;margin-top:35px;background-size:contain;background-repeat:no-repeat}.header-container .top-header h5{display:flex;width:200px;font-size:26px;font-weight:500px;justify-content:center;align-items:center}.header-container .bottom-header{display:flex;max-width:1400px;width:100%;height:40px;margin:0 auto;padding-left:10px}.header-container .bottom-header .nav{display:flex;max-width:1380px;width:100%}.header-container .bottom-header .nav .nav-list{display:flex;margin:0 auto;list-style:none}.header-container .bottom-header .nav .nav-list .nav-item{display:flex;width:230px;margin:0 auto;justify-content:center;align-items:center;transition:.5s;cursor:pointer;background-color:#1b7571}.header-container .bottom-header .nav .nav-list .nav-item .nav-link{font-family:"Roboto",sans-serif;font-style:normal;font-weight:500;font-size:16px;line-height:22px;color:#fff;text-decoration:none;transition:.5s;cursor:pointer}.header-container .bottom-header .nav .nav-list .nav-item .nav-link:hover{color:#000}.header-container .bottom-header .nav .nav-list .nav-item:hover{background-color:#58a9a5}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document

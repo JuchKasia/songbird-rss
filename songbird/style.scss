@@ -290,36 +290,9 @@ body {
                     display: flex;
                     flex-wrap: wrap;
                     max-width: 800px;
-                    
                     // border: 1px solid red;
                     .nav-item {
-                        display: flex;
-                        width: 230px;
                         height: 35px;
-                        margin: 0 auto;
-                        justify-content: center;
-                        align-items: center;
-                        transition: 0.5s;
-                        cursor: pointer;
-                        background-color: $color-turquoise;
-                        // border: 1px solid blue;
-                        .nav-link {
-                            font-family: 'Roboto', sans-serif;
-                            font-style: normal;
-                            font-weight: 500;
-                            font-size: 16px;
-                            line-height: 22px;
-                            color: #FFFFFF;
-                            text-decoration: none;
-                            transition: 0.5s;
-                            cursor: pointer;
-                        }
-                        .nav-link:hover {
-                            color: black;
-                        }
-                    }
-                    .nav-item:hover {
-                        background-color: #58A9A5;
                     }
                 }
             }

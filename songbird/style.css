@@ -339,6 +339,7 @@ body {
   /* HEADER */
   .header {
     max-width: 850px;
+    height: 220px;
   }
   .header-container .top-header {
     max-width: 600px;
@@ -346,12 +347,16 @@ body {
   }
   .header-container .bottom-header {
     max-width: 600px;
+    height: 100px;
   }
   .header-container .bottom-header .nav {
     max-width: 600px;
   }
   .header-container .bottom-header .nav .nav-list {
     max-width: 600px;
+  }
+  .header-container .bottom-header .nav .nav-list .nav-item {
+    height: 30px;
   }
   /*Footer*/
   .footer {

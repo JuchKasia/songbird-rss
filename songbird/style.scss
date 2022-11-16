@@ -58,7 +58,7 @@ body {
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    // border: 2px solid green;
+    border: 1px solid green;
     .top-header {
         display: flex;
         max-width: 1400px;
@@ -67,7 +67,7 @@ body {
         margin: 0 auto;
         padding-left: 10px;
         justify-content: space-between;
-        border: 2px solid violet;
+        // border: 2px solid violet;
         .logo {
             display: flex;
             background-image: url('https://birds-quiz.netlify.app/static/media/logo.4f82cd73.svg');
@@ -96,7 +96,7 @@ body {
         height: 40px;
         margin: 0 auto;
         // padding-left: 10px;
-        border: 1px solid blue;
+        // border: 1px solid blue;
         .nav {
             display: flex;
             max-width: 1400px;
@@ -315,7 +315,7 @@ body {
     /* HEADER */ 
     .header {
         max-width: 850px;
-        height: 220px;
+        // height: 220px;
     }
 
     .header-container {
@@ -323,6 +323,9 @@ body {
             max-width: 600px;
             padding-left: 0px;
             // border: 2px solid violet;
+            .logo {
+                margin-top: 10px;
+            }
         }
         .bottom-header {
             max-width: 600px;

@@ -67,6 +67,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border: 1px solid green;
 }
 
 .header-container .top-header {
@@ -81,7 +82,6 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border: 2px solid violet;
 }
 
 .header-container .top-header .logo {
@@ -120,7 +120,6 @@ body {
   width: 100%;
   height: 40px;
   margin: 0 auto;
-  border: 1px solid blue;
 }
 
 .header-container .bottom-header .nav {
@@ -339,11 +338,13 @@ body {
   /* HEADER */
   .header {
     max-width: 850px;
-    height: 220px;
   }
   .header-container .top-header {
     max-width: 600px;
     padding-left: 0px;
+  }
+  .header-container .top-header .logo {
+    margin-top: 10px;
   }
   .header-container .bottom-header {
     max-width: 600px;

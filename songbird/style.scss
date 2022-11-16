@@ -67,7 +67,7 @@ body {
         margin: 0 auto;
         padding-left: 10px;
         justify-content: space-between;
-        // border: 2px solid violet;
+        border: 2px solid violet;
         .logo {
             display: flex;
             background-image: url('https://birds-quiz.netlify.app/static/media/logo.4f82cd73.svg');
@@ -96,11 +96,12 @@ body {
         height: 40px;
         margin: 0 auto;
         // padding-left: 10px;
-        // border: 1px solid blue;
+        border: 1px solid blue;
         .nav {
             display: flex;
             max-width: 1400px;
             width: 100%;
+            border-radius: 25px;
             .nav-list {
                 display: flex;
                 max-width: 1400px;
@@ -111,12 +112,14 @@ body {
                 .nav-item {
                     display: flex;
                     width: 230px;
+                    height: 40px;
                     margin: 0 auto;
                     justify-content: center;
                     align-items: center;
                     transition: 0.5s;
                     cursor: pointer;
                     background-color: $color-turquoise;
+                    border-radius: 10px;
                     // border: 1px solid blue;
                     .nav-link {
                         font-family: 'Roboto', sans-serif;
@@ -266,6 +269,7 @@ body {
     /* HEADER */ 
     .header {
         max-width: 1050px;
+        height: 200px;
     }
 
     .header-container {
@@ -273,13 +277,50 @@ body {
             max-width: 800px;
             padding-left: 0px;
             // border: 2px solid violet;
+            .logo {
+                margin-top: 20px;
+            }
         }
         .bottom-header {
             max-width: 800px;
+            height: 80px;
             .nav {
                 max-width: 800px;
                 .nav-list {
+                    display: flex;
+                    flex-wrap: wrap;
                     max-width: 800px;
+                    
+                    // border: 1px solid red;
+                    .nav-item {
+                        display: flex;
+                        width: 230px;
+                        height: 35px;
+                        margin: 0 auto;
+                        justify-content: center;
+                        align-items: center;
+                        transition: 0.5s;
+                        cursor: pointer;
+                        background-color: $color-turquoise;
+                        // border: 1px solid blue;
+                        .nav-link {
+                            font-family: 'Roboto', sans-serif;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 22px;
+                            color: #FFFFFF;
+                            text-decoration: none;
+                            transition: 0.5s;
+                            cursor: pointer;
+                        }
+                        .nav-link:hover {
+                            color: black;
+                        }
+                    }
+                    .nav-item:hover {
+                        background-color: #58A9A5;
+                    }
                 }
             }
         }
@@ -293,5 +334,41 @@ body {
 
     .footer-container {
         max-width: 800px;
+    }
+}
+
+/*MEDIA MAX-WIDTH: 850px*/
+@media (max-width: 850px) {
+
+    /* HEADER */ 
+    .header {
+        max-width: 850px;
+    }
+
+    .header-container {
+        .top-header {
+            max-width: 600px;
+            padding-left: 0px;
+            // border: 2px solid violet;
+        }
+        .bottom-header {
+            max-width: 600px;
+            .nav {
+                max-width: 600px;
+                .nav-list {
+                    max-width: 600px;
+                }
+            }
+        }
+    }
+
+    /*Footer*/
+    .footer {
+        max-width: 850px;
+        // border: 1px solid red;
+    }
+
+    .footer-container {
+        max-width: 600px;
     }
 }

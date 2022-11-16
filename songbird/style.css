@@ -287,4 +287,32 @@ body {
     max-width: 1000px;
   }
 }
+
+/*MEDIA MAX-WIDTH: 1050px*/
+@media (max-width: 1050px) {
+  /* HEADER */
+  .header {
+    max-width: 1050px;
+  }
+  .header-container .top-header {
+    max-width: 800px;
+    padding-left: 0px;
+  }
+  .header-container .bottom-header {
+    max-width: 800px;
+  }
+  .header-container .bottom-header .nav {
+    max-width: 800px;
+  }
+  .header-container .bottom-header .nav .nav-list {
+    max-width: 800px;
+  }
+  /*Footer*/
+  .footer {
+    max-width: 1050px;
+  }
+  .footer-container {
+    max-width: 800px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

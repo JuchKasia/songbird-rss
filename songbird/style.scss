@@ -259,3 +259,39 @@ body {
         max-width: 1000px;
     }
 }
+
+/*MEDIA MAX-WIDTH: 1050px*/
+@media (max-width: 1050px) {
+
+    /* HEADER */ 
+    .header {
+        max-width: 1050px;
+    }
+
+    .header-container {
+        .top-header {
+            max-width: 800px;
+            padding-left: 0px;
+            // border: 2px solid violet;
+        }
+        .bottom-header {
+            max-width: 800px;
+            .nav {
+                max-width: 800px;
+                .nav-list {
+                    max-width: 800px;
+                }
+            }
+        }
+    }
+
+    /*Footer*/
+    .footer {
+        max-width: 1050px;
+        // border: 1px solid red;
+    }
+
+    .footer-container {
+        max-width: 800px;
+    }
+}

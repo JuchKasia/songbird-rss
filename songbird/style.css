@@ -232,7 +232,7 @@ body {
   cursor: pointer;
 }
 
-/*MEDIA MAX-WIDTH: 850px*/
+/*MEDIA MAX-WIDTH: 1400px*/
 @media (max-width: 1400px) {
   /* HEADER */
   .header {
@@ -257,6 +257,34 @@ body {
   }
   .footer-container {
     max-width: 1200px;
+  }
+}
+
+/*MEDIA MAX-WIDTH: 1200px*/
+@media (max-width: 1200px) {
+  /* HEADER */
+  .header {
+    max-width: 1200px;
+  }
+  .header-container .top-header {
+    max-width: 1000px;
+    padding-left: 0px;
+  }
+  .header-container .bottom-header {
+    max-width: 1000px;
+  }
+  .header-container .bottom-header .nav {
+    max-width: 1000px;
+  }
+  .header-container .bottom-header .nav .nav-list {
+    max-width: 1000px;
+  }
+  /*Footer*/
+  .footer {
+    max-width: 1200px;
+  }
+  .footer-container {
+    max-width: 1000px;
   }
 }
 /*# sourceMappingURL=style.css.map */

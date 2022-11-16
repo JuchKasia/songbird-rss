@@ -151,7 +151,7 @@ body {
     max-width: 1600px;
     width: 100%;
     min-height: 80px;
-    // border: 1px solid red;
+    border: 1px solid red;
 }
 
 .footer-container {
@@ -269,7 +269,6 @@ body {
     /* HEADER */ 
     .header {
         max-width: 1050px;
-        height: 200px;
     }
 
     .header-container {
@@ -278,7 +277,7 @@ body {
             padding-left: 0px;
             // border: 2px solid violet;
             .logo {
-                margin-top: 20px;
+                margin-top: 15px;
             }
         }
         .bottom-header {

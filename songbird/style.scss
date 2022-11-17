@@ -48,7 +48,7 @@ body {
     width: 100%;
     margin: 0 auto;
     // background-color: #000;
-    // border: 1px solid green;
+    border: 2px solid blue;
 }
 
 .header-container {
@@ -58,7 +58,7 @@ body {
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid green;
+    // border: 1px solid green;
     .top-header {
         display: flex;
         max-width: 1400px;
@@ -324,7 +324,9 @@ body {
             padding-left: 0px;
             // border: 2px solid violet;
             .logo {
-                margin-top: 10px;
+                width: 160px;
+                height: 40px;
+                margin-top: 15px;
             }
         }
         .bottom-header {
@@ -350,5 +352,68 @@ body {
 
     .footer-container {
         max-width: 600px;
+    }
+}
+
+/*MEDIA MAX-WIDTH: 650px*/
+@media (max-width: 650px) {
+
+    /* HEADER */ 
+    .header {
+        max-width: 650px;
+        height: 240px;
+        border: 2px solid green;
+    }
+
+    .header-container {
+        .top-header {
+            max-width: 400px;
+            border: 2px solid violet;
+            .logo {
+                width: 120px;
+                height: 30px;
+                margin-top: 15px;
+            }
+            h5 {
+                font-size: 22px;
+            }
+        }
+        .bottom-header {
+            max-width: 400px;
+            height: 200px;
+            border: 2px solid blue;
+            .nav {
+                max-width: 600px;
+                .nav-list {
+                    max-width: 600px;
+                    .nav-item {
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    /*Footer*/
+    .footer {
+        max-width: 650px;
+        // border: 1px solid red;
+    }
+
+    .footer-container {
+        max-width: 400px;
+        .github-link {
+            width: 50px;
+            height: 20px;
+        }
+        .year {
+            font-size: 18px;
+            font-weight: 500;
+            // border: 1px solid red;
+        }
+        .rss-link {
+            width: 90px;
+            height: 45px;
+        }
     }
 }

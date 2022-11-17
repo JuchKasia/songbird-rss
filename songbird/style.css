@@ -49,6 +49,7 @@ body {
   max-width: 1600px;
   width: 100%;
   margin: 0 auto;
+  border: 2px solid blue;
 }
 
 .header-container {
@@ -67,7 +68,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid green;
 }
 
 .header-container .top-header {
@@ -344,7 +344,9 @@ body {
     padding-left: 0px;
   }
   .header-container .top-header .logo {
-    margin-top: 10px;
+    width: 160px;
+    height: 40px;
+    margin-top: 15px;
   }
   .header-container .bottom-header {
     max-width: 600px;
@@ -365,6 +367,61 @@ body {
   }
   .footer-container {
     max-width: 600px;
+  }
+}
+
+/*MEDIA MAX-WIDTH: 650px*/
+@media (max-width: 650px) {
+  /* HEADER */
+  .header {
+    max-width: 650px;
+    height: 240px;
+    border: 2px solid green;
+  }
+  .header-container .top-header {
+    max-width: 400px;
+    border: 2px solid violet;
+  }
+  .header-container .top-header .logo {
+    width: 120px;
+    height: 30px;
+    margin-top: 15px;
+  }
+  .header-container .top-header h5 {
+    font-size: 22px;
+  }
+  .header-container .bottom-header {
+    max-width: 400px;
+    height: 200px;
+    border: 2px solid blue;
+  }
+  .header-container .bottom-header .nav {
+    max-width: 600px;
+  }
+  .header-container .bottom-header .nav .nav-list {
+    max-width: 600px;
+  }
+  .header-container .bottom-header .nav .nav-list .nav-item {
+    height: 30px;
+  }
+  /*Footer*/
+  .footer {
+    max-width: 650px;
+  }
+  .footer-container {
+    max-width: 400px;
+  }
+  .footer-container .github-link {
+    width: 50px;
+    height: 20px;
+  }
+  .footer-container .year {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .footer-container .rss-link {
+    width: 90px;
+    height: 45px;
   }
 }
 /*# sourceMappingURL=style.css.map */

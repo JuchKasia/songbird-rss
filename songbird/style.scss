@@ -3,7 +3,7 @@
 /* VARIABLES */
 $color-mint: #58A9A5;
 $color-turquoise: #1b7571;
-$color-gray: #AABCC5;
+$color-gray: #94989b;
 
 /* SELECTORS */
 %body {
@@ -142,6 +142,105 @@ body {
             }
         }
     }
+}
+
+/* SECTION QUIZ */ 
+
+.section-quiz {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    // border: 2px solid blue;
+}
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    // height: 160px;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    color: #d6d3d3;
+    border-radius: 15px;
+    .block-question {
+        display: flex;
+        // height: 120px;
+        max-width: 1400px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        justify-content: space-between;
+        background-color: #4b4d4e;
+        border: 1px solid green;
+        .bird-img {
+            width: 200px;
+            height: 155px;
+            border-radius: 10px;
+        }
+        .card-list {
+            display: flex;
+            flex-direction: column;
+            width: calc(100% - 240px);
+            list-style: none;
+            .item__title {
+                font-size: 32px;
+                margin-top: 20px;
+            }
+            .item__audio-player {
+                display: flex;
+                margin-top: 20px;
+                .controls {
+                    display: flex;
+                    width: 50px;
+                    height: 50px;
+                    .play-btn {
+                        width: 40px;
+                        height: 40px;
+                        // color: #d6d3d3;
+                        // fill: #1b7571;
+                        background-image: url('./assets/play.svg');
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        transition: 0.5s;
+                        cursor: pointer;
+                        border: 1px solid red;
+                    }
+                    // .play-btn:hover {
+                        // fill: #000;
+                        // color: black;
+                    // }
+                }
+                .time-bar {
+                    position: relative;
+
+                }
+            }
+        }
+
+    }
+
+}
+.play-btn {
+    width: 40px;
+    height: 40px;
+    color: #d6d3d3;
+    fill: #1b7571;
+    background-image: url('./assets/play.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    cursor: pointer;
+    border: 1px solid red;
+}
+.play-btn:hover {
+    width: 50px;
+    height: 50px;
+    // fill: #000;
+    // color: black;
+
 }
 
 /*Footer*/

@@ -38,7 +38,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #AABCC5;
+  background-color: #94989b;
   color: #000;
 }
 
@@ -178,6 +178,123 @@ body {
 
 .header-container .bottom-header .nav .nav-list .nav-item:hover {
   background-color: #58A9A5;
+}
+
+/* SECTION QUIZ */
+.section-quiz {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.quiz-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #d6d3d3;
+  border-radius: 15px;
+}
+
+.quiz-container .block-question {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #4b4d4e;
+  border: 1px solid green;
+}
+
+.quiz-container .block-question .bird-img {
+  width: 200px;
+  height: 155px;
+  border-radius: 10px;
+}
+
+.quiz-container .block-question .card-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: calc(100% - 240px);
+  list-style: none;
+}
+
+.quiz-container .block-question .card-list .item__title {
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+.quiz-container .block-question .card-list .item__audio-player {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.quiz-container .block-question .card-list .item__audio-player .controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
+
+.quiz-container .block-question .card-list .item__audio-player .controls .play-btn {
+  width: 40px;
+  height: 40px;
+  background-image: url("./assets/play.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+  border: 1px solid red;
+}
+
+.quiz-container .block-question .card-list .item__audio-player .time-bar {
+  position: relative;
+}
+
+.play-btn {
+  width: 40px;
+  height: 40px;
+  color: #d6d3d3;
+  fill: #1b7571;
+  background-image: url("./assets/play.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+  border: 1px solid red;
+}
+
+.play-btn:hover {
+  width: 50px;
+  height: 50px;
 }
 
 /*Footer*/

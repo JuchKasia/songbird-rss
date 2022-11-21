@@ -167,14 +167,14 @@ body {
     border-radius: 15px;
     .block-question {
         display: flex;
-        // height: 120px;
         max-width: 1400px;
         width: 100%;
         margin: 0 auto;
         padding: 10px;
         justify-content: space-between;
         background-color: #4b4d4e;
-        border: 1px solid green;
+        border-radius: 15px;
+        // border: 1px solid green;
         .bird-img {
             width: 200px;
             height: 155px;
@@ -218,6 +218,32 @@ body {
 
                 }
             }
+        }
+
+    }
+    .block-answer {
+        display: flex;
+        max-width: 1400px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 10px;
+        justify-content: space-between;
+        // background-color: #4b4d4e;
+        // border-radius: 15px;
+        // border: 1px solid
+        .block-values {
+            display: flex;
+            width: calc((100% - 20px) / 2);
+            background-color: #4b4d4e;
+            border-radius: 15px;
+
+        }
+        .block-about {
+            display: flex;
+            width: calc((100% - 20px) / 2);
+            background-color: #4b4d4e;
+            border-radius: 15px;
         }
 
     }

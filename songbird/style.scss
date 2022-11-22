@@ -225,6 +225,7 @@ body {
         display: flex;
         max-width: 1400px;
         width: 100%;
+        height: 385px;
         margin: 0 auto;
         margin-top: 20px;
         padding: 10px;
@@ -234,9 +235,28 @@ body {
         // border: 1px solid
         .block-values {
             display: flex;
+            flex-direction: column;
             width: calc((100% - 20px) / 2);
             background-color: #4b4d4e;
-            border-radius: 15px;
+            // border-radius: 15px;
+            .values-list {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                list-style: none;
+                .list__item {
+                    display: flex;
+                    height: 60px;
+                    padding-left: 20px;
+                    font-size: 20px;
+                    align-items: center;
+                    gap: 30px;
+                    border: 1px solid gray;
+                    // border-radius: 5px;
+                    cursor: pointer;
+                }
+
+            }
 
         }
         .block-about {

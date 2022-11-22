@@ -358,14 +358,13 @@ body {
   padding-left: 20px;
   font-size: 20px;
   list-style: none;
-  gap: 20px;
+  gap: 10px;
   cursor: pointer;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.quiz-container .block-answer .block-about .instruction .instruction__item-in1:hover,
-.quiz-container .block-answer .block-about .instruction .instruction__item-in2:hover {
+.quiz-container .block-answer .block-about .instruction:hover {
   color: #58A9A5;
 }
 

@@ -330,6 +330,12 @@ body {
   gap: 30px;
   border: 1px solid gray;
   cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.quiz-container .block-answer .block-values .values-list .list__item:hover {
+  color: #58A9A5;
 }
 
 .quiz-container .block-answer .block-about {
@@ -338,7 +344,38 @@ body {
   display: flex;
   width: calc((100% - 20px) / 2);
   background-color: #4b4d4e;
-  border-radius: 15px;
+}
+
+.quiz-container .block-answer .block-about .instruction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  list-style: none;
+  gap: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.quiz-container .block-answer .block-about .instruction .instruction__item-in1:hover,
+.quiz-container .block-answer .block-about .instruction .instruction__item-in2:hover {
+  color: #58A9A5;
+}
+
+.quiz-container .block-answer .block-about .card-body {
+  display: none;
+}
+
+.quiz-container .block-answer .block-about .card-description {
+  display: none;
 }
 
 .play-btn {

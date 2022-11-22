@@ -254,8 +254,11 @@ body {
                     border: 1px solid gray;
                     // border-radius: 5px;
                     cursor: pointer;
+                    transition: 0.5s;
                 }
-
+                .list__item:hover {
+                    color: $color-mint;
+                }
             }
 
         }
@@ -263,9 +266,30 @@ body {
             display: flex;
             width: calc((100% - 20px) / 2);
             background-color: #4b4d4e;
-            border-radius: 15px;
+            // border-radius: 15px;
+            .instruction {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                margin-top: 20px;
+                padding-left: 20px;
+                font-size: 20px;
+                list-style: none;
+                gap: 20px;
+                cursor: pointer;
+                transition: 0.5s;
+                .instruction__item-in1:hover,
+                .instruction__item-in2:hover {
+                    color: $color-mint;
+                }
+            }
+            .card-body {
+                display: none;
+            }
+            .card-description {
+                display: none;
+            }
         }
-
     }
 
 }
